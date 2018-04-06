@@ -1,0 +1,103 @@
+body {
+    background: white;
+	font-family: sans-serif;
+	margin: 0;
+	
+}
+#wrap {
+	width: 100%;
+	height: 150px;
+	background: white;
+	margin:auto;
+	
+}
+
+.menu {
+    margin: 100px, 30px;
+	}
+.menu a {
+	text-decoration: none;
+	color: ;
+	left: 1px;
+	
+}
+.menu li {
+    list-style-type: none;
+	float:left;
+	width: 178px;
+	height: 30px;
+	padding: 20px;
+	background: white;
+	text-align: center;
+	cursor: pointer;
+	line-height: 30px;
+	transition-duration: 0.6s;
+}
+.menu li:hover {
+    background: #ece;
+	
+	}
+.menu li ul li {
+    position:relative;
+	right: 60px;
+	top: 20px;
+	}
+.menu li ul {
+    display: none;
+}
+.menu ul li span.arrow {
+    border:6px solid transparent;
+	border-top:9px solid #fff;
+    position:absolute;
+    top: 130px;
+    left: 460px;
+	}
+.menu  li:hover ul {
+    display: block;
+	animation: drop 1s;
+	position: relative;
+}
+#content {
+	width: 100%;
+
+	}
+#kiri { 
+	background:#efefef;
+	float:left;
+	width: 20%;
+	
+	}
+#tengah {
+	background:#efefef;
+	float:left;
+	width: 20%;
+	
+	}
+#kanan{
+	background:#efefef;
+	float:left;
+	width: 20%;
+	
+	
+}
+#kanan1{
+	background:#efefef;
+	float:left;
+	width: 20%;
+ }
+ #kiri1{
+	background:#efefef;
+	float:left;
+	width: 20%
+ }
+ 
+ .footer
+	{
+		background-color: #0078FF;
+		height: 50%%;
+		font-family: Tahoma;
+		text-align: center;
+		font-size: 100%;
+		margin-top: 20%;
+		color: #fff;
+	}

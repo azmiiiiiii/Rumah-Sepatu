@@ -1,0 +1,40 @@
+body {
+    background: white;
+}
+#wrap {
+	background: white;
+} 
+#header {
+	height: 150px;
+	width: 100%;
+	padding: auto;
+	background-color: white;
+	background-position : left;
+}
+	
+p#warna4 {
+	display: block;
+	background: white;
+	padding:0px;
+	color:white;
+}
+.content4 {
+	margin: 5% 15% 5% 15%;
+	background: white;
+	border: 5px solid black;
+	border-radius: 10px;
+	padding: 50px;
+	
+}
+.text {
+	font-size: 19px;
+}
+.footer {
+	display:block;
+	background-repeat:no-repeat;
+	background: white;
+	color:white;
+	text-align:center;
+	padding:10px;
+	bottom: 5%;
+}
